@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #2277AA;
-  color: #CCA9DD;
+  color: #333;
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 }
 
 .card-title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin: 0;
 }
@@ -90,31 +90,34 @@ a:hover {
     font-size: 14px;
   }
 }
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biodata Diri</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Biodata Node.js</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="container">
-    <div class="profile-pic"></div>
-    <div class="profile-info">
-      <h1>Valencia Putri</h1>
-      <p>Umur: 16 tahun</p>
-      <p>Sekolah: SMK N 2 Semarang</p>
-      <p>Alamat: Tlogosari</p>
-      <p>Email: nama@email.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/nama/" target="_blank">linkedin.com/in/nama</a></p>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header bg-info text-white">
+        <h1 class="text-center">Biodata Node.js</h1>
+      </div>
+      <div class="card-body">
+        <img src="profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
+        <h3 class="card-title">Valencia Putri</h3>
+        <p class="card-text">Umur: 16 tahun</p>
+        <p class="card-text">Pendidikan: 1. SDN Tlogosari Kulon 04\n 2. SMP N 15 Semarang\n 3. SMK N 2 Semarang</p>
+        <p class="card-text">Alamat: Tlogosari</p>
+        <p class="card-text">Email: nama@email.com</p>
+        <p class="card-text">LinkedIn: <a href="https://www.linkedin.com/in/nama/" target="_blank">linkedin.com/in/nama</a></p>
+      </div>
     </div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
+
 
 
               

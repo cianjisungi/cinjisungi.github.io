@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri Valencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Valencia Putri</h1>
+            <p>Seorang Kreatif Dengan Imajinasi Tak Terbatas</p>
+        </div>
+    </header>
+
+    <section class="about-me">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="profile-img">
+                <img src="profile.jpg" alt="Profil Saya">
+                <div class="img-overlay"></div>
+            </div>
+            <p>Saya adalah seorang kreatif yang mencintai dunia seni dan teknologi. Minat saya mencakup desain grafis,
+                ilustrasi, fotografi, dan pengembangan web. Saya selalu berusaha untuk memberikan sentuhan unik pada setiap
+                karya saya dan memberikan pengalaman yang menarik bagi pengguna.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Kemampuan</h2>
+            <ul>
+                <li>Desain Grafis</li>
+                <li>Ilustrasi</li>
+                <li>Fotografi</li>
+                <li>Pengembangan Web</li>
+                <li>Animasi</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Kontak: email@example.com | Telepon: 123-456-7890</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.about-me {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+.profile-img {
+    position: relative;
+}
+
+.profile-img img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.profile-img:hover img {
+    transform: scale(1.1);
+}
+
+.profile-img:hover .img-overlay {
+    opacity: 1;
+}
+
+.skills {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

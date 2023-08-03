@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  background-image: url('profile.jpg'); /* Ganti dengan URL foto profil Anda */
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-info {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-pic"></div>
+    <div class="profile-info">
+      <h1>Valencia Putri</h1>
+      <p>Umur: 16 tahun</p>
+      <p>Sekolah: SMK N 2 Semarang</p>
+      <p>Alamat: Tlogosari</p>
+      <p>Email: nama@email.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/nama/" target="_blank">linkedin.com/in/nama</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+              
+
+  
+
+
+   
+
+   
